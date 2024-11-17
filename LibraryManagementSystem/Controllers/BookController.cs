@@ -22,19 +22,5 @@ namespace LibraryManagementSystem.Controllers
         
 
          // Get all books
-        [HttpGet]
-        public ActionResult<IEnumerable<Book>> GetBooks()
-        {
-            return Ok(books);
-        }
-        public ActionResult<Book>GetBook(int id)  
-        {
-            return Ok(books[id]);
-        }
-
-        private ActionResult<Book> Ok(object value)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
