@@ -12,5 +12,9 @@ namespace LibraryManagementSystem.Models
         public bool isAvailable { get; set; } = false;
         public int bookId { get; set; }
 
+        public static implicit operator List<object>(Book v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
