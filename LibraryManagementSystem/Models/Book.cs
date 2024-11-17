@@ -11,5 +11,6 @@ namespace LibraryManagementSystem.Models
         public string Author { get; set; }
         public bool isAvailable { get; set; } = false;
         public int bookId { get; set; }
+
     }
 }
